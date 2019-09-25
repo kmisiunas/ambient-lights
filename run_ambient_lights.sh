@@ -1,5 +1,7 @@
 #!/bin/bash
 
++x 
+
 cd $(dirname $0)
 
 echo "ambient-lights: Downloading the latest version from Github."
