@@ -4,6 +4,11 @@ Adjust Philips Hue lights to match the time of the day
 
 # Run
 
-`jupyter nbconvert --to script ambient-lights.ipynb`
+Add to `crontab -e` and ass
 
-`python ambient-lights.py`
+```
+# m h  dom mon dow   command
+1 0 * * * /home/kmisiunas/ambient-lights/run_ambient_lights.sh
+@reboot /home/kmisiunas/ambient-lights/run_ambient_lights.sh
+```
+
