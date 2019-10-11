@@ -12,3 +12,7 @@ Add to `crontab -e` and ass
 @reboot /home/kmisiunas/ambient-lights/run_ambient_lights.sh
 ```
 
+and don't forger to start the server with
+
+`sudo service cron start`
+

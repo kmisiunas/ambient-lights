@@ -1,6 +1,6 @@
 #!/bin/bash
 
-+x 
+set -x
 
 cd $(dirname $0)
 
